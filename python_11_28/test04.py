@@ -1,5 +1,5 @@
 # 문자열 인덱싱
-name = 'Guido van Rossum'
+name = 'Guido van LeeHoJun'
 print(name[0])
 print(name[1])
 print(name[2])
@@ -20,7 +20,7 @@ print(explain[2:6:2])
 # explain[0:6]은 explain[0:6:1]에서 :1이 생략되어 있는 것이다.
 
 # 문자열 사칙연산
-s = 'leehojun'
+s = 'LeeHoJun'
 
 print(s+s)
 print(s*3)
