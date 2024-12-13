@@ -1,0 +1,12 @@
+<h1>blog</h1>
+<main>
+    {% for i in posts %}
+    <a href="/blog/{{i.id}}">
+        <section>
+            <h2>{{i.title}}</h2>
+            <p>{{i.contents}}</p>
+            <a href="/blog/{{i.author}}"><p>{{i.author}}</p></a>
+        </section>
+    </a>
+    {% endfor %}
+</main>
